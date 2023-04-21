@@ -1,4 +1,3 @@
-import App from "../App";
 import "./Card.css";
 
 export default function Card(props) {
