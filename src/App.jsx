@@ -24,7 +24,11 @@ export default function App() {
   return (
     <>
     <div className='card-container'>
-        <Card />
+        {movies.map(ele => {
+          return <Card key = {ele.title} 
+          title = {ele.title}
+          image = {ele.image} />
+        })}
     </div>
     </>
   );
